@@ -275,3 +275,42 @@ nav li a {
   /* box-shadow: 2px 2px 10px rgba(250, 67, 0, 0.5); */
 
 }
+.sec-4{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: url(promo.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.promo{
+  display: flex;
+  flex-direction: column;
+  color: #fffafa;
+}
+.promotion{
+  display: flex;
+  flex-direction: row;
+  color: #fffafa;
+}
+.btn4 {
+  display: flex;
+  justify-content: center;
+  background-color: #fa4300;
+  color: #fffafa;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border-style: hidden;
+  z-index: 3;
+  margin-right: 50px;
+}
+
+.btn4:hover {
+  background-color: #b73100;
+  color: #fffafa;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border-style: hidden;
+  font-weight: bold;
+}
