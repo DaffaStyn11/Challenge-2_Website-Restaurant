@@ -284,6 +284,10 @@ nav li a {
   background-position: center;
   background-repeat: no-repeat;
 }
+.desc-promo{
+  display: flex;
+  flex-direction: row;
+}
 .promo{
   display: flex;
   flex-direction: column;
