@@ -149,8 +149,9 @@
         <div class="promo">
             <p id="desc-promo" class="promotion">Special Promo for You!</p>
             <div class="desc-promo">
-                <span>✨ 10% discount for minimum purchase of Rp100,000</span> <span>✨ 15% discount for minimum purchase of Rp200,000</span> <span>🥤 Iced Tea Refill Bonus - Buy 1, unlimited refills!</span>
-            <p>Available only on Fridays!</p>
+                <span>✨ 10% discount for minimum purchase of Rp100,000</span> <span>✨ 15% discount for minimum purchase
+                    of Rp200,000</span> <span>🥤 Iced Tea Refill Bonus - Buy 1, unlimited refills!</span>
+                <p>Available only on Fridays!</p>
             </div>
         </div>
         <div class="desc-btn-2">
@@ -161,30 +162,69 @@
         <div class="desc-sec-5">
             <p id="contact-us" class="desc-contact-us">Contact <span>US</span></p>
             <div class="">
-                <p id="momen" class="contact">If you want to enjoy our food on the spot, you can click the map button and will be directed to our address.</p>
+                <p id="momen" class="contact">If you want to enjoy our food on the spot, you can click the map button
+                    and <br> will be directed to our address.</p>
             </div>
-            <div class="buat-janji-input">
+            <div class="contact-us-input">
                 <!-- <label for="nama">Nama</label> -->
-                <input type="text" placeholder="Masukkan nama Anda">
+                <input type="text" placeholder="Name">
             </div>
-            <div class="buat-janji-input">
+            <div class="contact-us-input">
                 <!-- <label for="nohp">No.HP</label> -->
-                <input type="text" placeholder="Masukkan no.hp Anda">
+                <input type="text" placeholder="Email">
             </div>
-            <div class="buat-janji-input">
+            <div class="contact-us-input">
                 <!-- <label for="tgl">Tanggal</label> -->
-                <input type="date">
+                <input type="text" placeholder="Phone number">
             </div>
-            <div class="buat-janji-input keluhan">
+            <div class="contact-us-input">
                 <!-- <label for="keluhan">Keluhan</label> -->
-                <textarea placeholder="Masukkan keluhan Anda"></textarea>
+                <textarea placeholder="How did you find us?"></textarea>
             </div>
-            <div class="buat-janji-input">
+            <div class="contact-us-input">
                 <!-- <label for="alamat">Alamat</label> -->
                 <input type="text" placeholder="Masukkan alamat Anda">
+            </div>
+            <div class="desc-btn-3">
+                <button class="btn5">SEND</button>
+            </div>
+            <div class="item-1">
+                <div class="phone">
+                    <img src="phone.png" alt="Phone">
+                    <div class="phone-text">
+                        <p class="phone-label">Phone</p>
+                        <p class="phone-number">+6285555555555</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <img src="email.png" alt="Email">
+                    <div class="email-text">
+                        <p class="email-label">Email</p>
+                        <p class="email-address">dapurdesa@gmail.com</p>
+                    </div>
+                </div>
+                <div class="map">
+                    <!-- <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5838888359825!2d110.41472307421047!3d-7.171524870727987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7051c3f1c1e8c3%3A0x4d376b8f6e2346d9!2sSimpang%20Lima%20Semarang!5e0!3m2!1sen!2sid!4v1648716360277!5m2!1sen!2sid"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe> -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3954.2275570647193!2d111.5287053!3d-7.6586653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bc2998523d17%3A0xf00362c0649ad04a!2sJl.%20Gedong%2C%20Banjarejo%2C%20Kec.%20Taman%2C%20Kota%20Madiun%2C%20Jawa%20Timur%2063137!5e0!3m2!1sen!2sid!4v1741510416110!5m2!1sen!2sid"
+                        width="600" height="475" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </section>
 </body>
 
 </html>
+<!-- <script>
+    function updateMap() {
+        let address = document.getElementById("mapAddress").value;
+        let encodedAddress = encodeURIComponent(address);
+        let mapUrl = `https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=${encodedAddress}`;
+        
+        document.getElementById("mapFrame").src = mapUrl;
+    }
+    </script> -->

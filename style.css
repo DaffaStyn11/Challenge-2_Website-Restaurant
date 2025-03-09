@@ -220,7 +220,7 @@ nav li a {
 .desc-delivery-4 {
   display: flex;
   justify-content: space-around;
-  color: #ff6d38;
+  /* color: #ff6d38; */
   font-weight: bolder;
 }
 .desc-order-1 img {
@@ -383,5 +383,90 @@ nav li a {
   justify-content: left;
   background-color: #fffafa;
   z-index: 1;
-  width: 1020px;
+  width: 1000px;
+  padding: 0 0 40px 50px;
+  gap: 20px;
+}
+.desc-contact-us{
+  flex-direction: column;
+  font-size: 54px;
+  font-weight: bold;
+  color:#000;
+}
+.desc-contact-us span{
+  color: #fa4300;
+}
+.contact{
+  margin-top: -50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-us-input {
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+}
+.desc-btn-3 {
+  display: flex;
+  flex-direction: row;
+}
+.btn5{
+  color: #fffafa;
+  background-color: #fa4300;
+  border-radius: 20px;
+  border-style: hidden;
+  width: 44%;
+  height: 200%;
+  z-index: 3;
+}
+.btn5:hover{
+  border-radius: 20px;
+  border-style: hidden;
+  width: 44%;
+  height: 200%;
+  font-weight: bold;
+  background-color: #cc3600;
+  color: #fffafa;
+}
+.item-1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* 2 kolom untuk phone dan email */
+  gap: 40px; /* Jarak antara phone dan email */
+  align-items: center;
+  margin-top: 50px;
+}
+
+.phone, .email {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Icon di kiri, teks di kanan */
+  align-items: center;
+  gap: 15px; /* Jarak antara icon dan teks */
+}
+
+.phone-text, .email-text {
+  display: grid;
+  grid-template-rows: auto auto; /* Label di atas, nomor/email di bawah */
+}
+
+.phone-label, .email-label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.phone-number, .email-address {
+  font-size: 14px;
+  color: #666;
+}
+.email{
+  margin-right: 500px; /* Atur sesuai kebutuhan */
+}
+.email-address{
+  color: #377DC3;
+}
+.map {
+  grid-column: span 2; /* Map bisa melebar ke 2 kolom */
+  text-align: center;
+  margin-top: -500px;
+  width: 200%;
 }
