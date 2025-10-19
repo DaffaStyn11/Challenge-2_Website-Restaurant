@@ -97,7 +97,7 @@ nav li a {
   margin-bottom: 30px;
 }
 
-.triangle {
+/* .triangle {
   position: absolute;
   top: 30%;
   right: 10%;
@@ -108,7 +108,7 @@ nav li a {
   border-right: 350px solid transparent;
   border-bottom: 300px solid #fa4300;
   z-index: 1;
-}
+} */
 
 .sec-1 {
   display: flex;
@@ -584,4 +584,124 @@ nav li a {
 
 .youtube:hover {
   color: #CC0000; /* Merah lebih gelap saat hover */
+}
+
+/* @keyframes gradientMove {
+  0% {
+    background: linear-gradient(135deg, #fff8f3, #ffe1d4);
+  }
+  50% {
+    background: linear-gradient(135deg, #ffe1d4, #fff8f3);
+  }
+  100% {
+    background: linear-gradient(135deg, #fff8f3, #ffe1d4);
+  }
+}
+
+.menu-food,
+.menu-snack,
+.menu-drink {
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #fa4300;
+  animation: gradientMove 6s ease-in-out infinite;
+  background-size: 200% 200%;
+  transition: 0.5s;
+} */
+ /* @keyframes pulseGlow {
+  0% {
+    box-shadow: 0 2px 6px rgba(250, 67, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 8px 20px rgba(250, 67, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 2px 6px rgba(250, 67, 0, 0.1);
+  }
+}
+
+.menu-food,
+.menu-snack,
+.menu-drink {
+  border: 1px solid #fa4300;
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  animation: pulseGlow 3s ease-in-out infinite;
+} */
+
+/* @keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.menu-food,
+.menu-snack,
+.menu-drink {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  animation: float 4s ease-in-out infinite;
+}
+
+.menu img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+} */
+
+.menu-food,
+.menu-snack,
+.menu-drink {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.menu-food:hover,
+.menu-snack:hover,
+.menu-drink:hover {
+  animation: popUp 0.5s ease forwards;
+  box-shadow: 0 10px 20px rgba(250, 67, 0, 0.3);
+  border-color: #fa4300;
+}
+@keyframes popUp {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.08) translateY(-6px);
+  }
+  100% {
+    transform: scale(1.05) translateY(-4px);
+  }
 }
